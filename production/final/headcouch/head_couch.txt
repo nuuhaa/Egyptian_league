@@ -1,0 +1,4 @@
+Mohamed ali;Aswan;190;80
+Pitso Mosimane;Alahly;188;76
+Alberto Valentim;Pyramids;180;75
+Patrice Carteron;Zamalk;182;82

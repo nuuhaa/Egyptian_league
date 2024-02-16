@@ -1,0 +1,3 @@
+Elslam stadium;cairo;70000
+Alex stadium;alex;77000
+Cairo stadium;cairo;95000

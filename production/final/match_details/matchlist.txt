@@ -1,0 +1,12 @@
+Alahly   Pyramids  	16	30	1	1	2020	Omar	ahmed	Elslam
+Aswan	  Zamalk        17      45	 1	 1	 2020	Khaled	ali	Alex
+Alahly   Zamalk	        16	30	8	1	2020	Khaled	ali	Elslam
+Aswan	Pyramids	17	45	8	1	2020	Mohamed	nour	Alex
+Alahly   Aswan	        20	15	15	1	2020	Mohamed	nour	Elslam
+Zamalk	Pyramids	22	15	15	1	2020	Ahmed	ali	Cairo
+Pyramids  Alahly    	16	30	22	1	2020	Omar	ahmed	Cario
+Zamalk    Aswan		18	45	22	1	2020	Khaled	ali	 Cairo
+Zamalk  Alahly          16	30	29	1	2020	Mohamed	nour	Cairo
+Pyramids   Aswan        22	45	29	1	2020	Khaled	ali 	Cairo
+Aswan    Alahly 	20	15	7	2	2020	Mohamed	nour	Alex
+Pyramids Zamalk 	22	15	7	2	2020	Ahmed	ali 	Cairo

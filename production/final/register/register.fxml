@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="register.register_controller">
+   <center>
+      <AnchorPane prefHeight="600.0" prefWidth="743.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="225.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../sample/Egypt-national-football-team.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="name" layoutX="226.0" layoutY="224.0" promptText="name" />
+            <TextField fx:id="email" layoutX="226.0" layoutY="258.0" promptText="E-mail" />
+            <Button layoutX="230.0" layoutY="345.0" mnemonicParsing="false" onAction="#register" prefHeight="25.0" prefWidth="142.0" style="-fx-background-color: #0598ff; -fx-font-weight: bold;" text="Register " textAlignment="CENTER" textFill="WHITE" />
+            <Label layoutX="211.0" layoutY="423.0" prefHeight="17.0" prefWidth="148.0" text="Already have an account ? " />
+            <Hyperlink layoutX="353.0" layoutY="420.0" onAction="#sign_in" text="Sign in" />
+            <PasswordField fx:id="password" layoutX="225.0" layoutY="296.0" promptText="password" />
+            <Label fx:id="label" layoutX="230.0" layoutY="197.0" prefHeight="17.0" prefWidth="151.0" textFill="#ee0c0c" />
+            <Button layoutX="230.0" layoutY="377.0" mnemonicParsing="false" onAction="#register_asAdmin" prefHeight="25.0" prefWidth="142.0" style="-fx-background-color: #0598ff; -fx-font-weight: bold;" text="Register as admin " textAlignment="CENTER" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <AnchorPane prefHeight="600.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <top>
+      <AnchorPane prefHeight="59.0" prefWidth="800.0" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
